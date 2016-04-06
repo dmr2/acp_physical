@@ -1,0 +1,8 @@
+C NCLFORTSTART
+      subroutine count(ncnty,nday,xvar,thres,icnt,l)
+      implicit none
+      integer ncnty,nday
+      real icnt(ncnty)
+      real xvar(ncnty,nday),thres
+      logical l
+C NCLEND

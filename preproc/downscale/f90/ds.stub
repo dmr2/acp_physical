@@ -1,0 +1,9 @@
+C NCLFORTSTART
+      subroutine ds(nsite,nday,obsmon,f,modmm,xwork,icnt,iscnt,precip)
+      implicit none
+      integer nsite,nday,icnt,iscnt
+      logical precip
+      real f(nsite),xwork(nday,nsite)
+      real obsmon(nday,nsite),modmm(nsite)
+C NCLEND
+

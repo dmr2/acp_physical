@@ -1,0 +1,6 @@
+C NCLFORTSTART
+      subroutine qa_minmax(nsite,nday,icnt,xtmin,xtmax,xtas)
+      implicit none
+      integer nsite,nday,icnt
+      real xtmin(nday,nsite),xtmax(nday,nsite),xtas(nday,nsite)
+C NCLEND

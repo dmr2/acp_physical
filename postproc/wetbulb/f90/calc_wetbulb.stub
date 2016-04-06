@@ -1,0 +1,7 @@
+C NCLFORTSTART
+      subroutine estimwet(nparm,params,nday,n305,nyr,slope,gtas,xwet,xtas,hmin)
+      implicit none
+      integer nparm,nday,nyr,n305
+      real params(nparm),slope,gtas(nyr)
+      real xwet(nday),xtas(nday),hmin
+C NCLEND
