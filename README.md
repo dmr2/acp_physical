@@ -1,6 +1,6 @@
-# acp_physical: Physical climate projection code for Houser et al., (2015) and Rasmussen et al. (2015)
+# acp_physical: Physical climate projection code for Houser et al., (2015) and Rasmussen et al. (2016)
 
-README file last updated by DJ Rasmussen, dmr2-at-princeton-dot-edu, Tue 29 Dec 2015 07:16:14 AM PST
+README file last updated by DJ Rasmussen, dmr2-at-princeton-dot-edu, Wed Oct 26 08:11:51 PDT 2016
 
 ## Citation
 
@@ -11,9 +11,9 @@ This code is intended to accompany the results of
         and P. Wilson. (2015). American Climate Prospectus: Economic Risks
         in the United States. Columbia University Press. ISBN: 978-0231174565
 
-   	(2) D. J. Rasmussen, M. Meinshausen, and R. E. Kopp. (2015). Probability-
+    (2) D. J. Rasmussen, M. Meinshausen, and R. E. Kopp. (2016). Probability-
         weighted ensembles of U.S. county-level climate projections for climate
-        risk analysis. ArXiv e-prints. arXiv: 1510.00313
+        risk analysis. Journal of Applied Meteorology and Climatology.
 
 Please cite these works when using any results generated with this code.
 
@@ -21,7 +21,7 @@ Please cite these works when using any results generated with this code.
 
 To run all this code requires Python v2.6-7, MATLAB, NCAR Command Language v6.1 or greater, and a Fortran90 compiler such as gfortran.
 
-This code is intended to help end-users who wish to work with, modify or reproduce the probabilistic physical climate projections of Houser et al. (2015) and Rasmussen et al. (2015) in greater a capacity other than the tables and figures provided therein. Key functionality these codes provide include:
+This code is intended to help end-users who wish to work with, modify or reproduce the probabilistic physical climate projections of Houser et al. (2015) and Rasmussen et al. (2016) in greater a capacity other than the tables and figures provided therein. Key functionality these codes provide include:
 
 1. Generate county-level probabilistic projections of temperature and precipitation using the Surrogate/Model Mixed Ensemble method (SMME)
 2. Generate county-level probabilistic projections of temperature and precipitation using the Monte Carlo Pattern-Residual method (MCPR)
@@ -58,12 +58,12 @@ In the included directories are:
 
 
 ###Historical Observations
-These routines require GHCN station level climate normals and are incluclude in the files. The temporal downscaling requires historical daily weather which is a large dataset. These data are a combined observation-reanalysis dataset that is available on the Rutgers' RU Core at: <https://rucore.libraries.rutgers.edu/>. The construction of this observation-reanalysis dataset is described in Appendix A of Rasmussen et al. (2015).
+These routines require GHCN station level climate normals and are incluclude in the files. The temporal downscaling requires historical daily weather which is a large dataset. These data are a combined observation-reanalysis dataset that is available on the Rutgers' RU Core at: <https://rucore.libraries.rutgers.edu/rutgers-lib/49865/>. The construction of this observation-reanalysis dataset is described in Appendix A of Rasmussen et al. (2016).
 
 
 ----
 
-    Copyright (C) 2016 by RHODIUM GROUP LLC
+    Copyright (C) 2016 by ROBERT E. KOPP AND RHODIUM GROUP LLC
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
