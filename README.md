@@ -1,6 +1,6 @@
 # acp_physical: Physical climate projection code for Houser et al., (2015) and Rasmussen et al. (2016)
 
-README file last updated by DJ Rasmussen, dmr2-at-princeton-dot-edu, Wed Oct 26 08:11:51 PDT 2016
+README file last updated by DJ Rasmussen, dmr2-at-princeton-dot-edu, Mon May 22 11:31:48 PDT 2017
 
 ## Citation
 
@@ -54,6 +54,7 @@ In the included directories are:
 * **stn2cnty** Codes to map U.S. counties to the nearest GHCN weather station. 
 * **qc_daily_tas** Codes for assuring daily Tmin < Tavg < Tmax 
 * **mcpr** Exceedance calculations and extraction codes for the MCPR method
+* **bin_climate** Codes to bin daily temperature and precipitation within each year for each county and ensemble model (useful economists doing climate econometrics)
 
 
 
@@ -63,7 +64,7 @@ These routines require GHCN station level climate normals and are incluclude in 
 
 ----
 
-    Copyright (C) 2016 by ROBERT E. KOPP AND RHODIUM GROUP LLC
+    Copyright (C) 2017 by ROBERT E. KOPP AND RHODIUM GROUP LLC
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
